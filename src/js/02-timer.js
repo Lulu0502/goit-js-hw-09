@@ -12,6 +12,7 @@ const refs = {
 };
 
 let intervalId = null;
+
 refs.start.disabled = true;
 
 const options = {
