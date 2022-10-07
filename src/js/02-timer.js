@@ -31,6 +31,7 @@ const options = {
       refs.start.disabled = false;
     }
 
+    
     refs.start.addEventListener('click', () => {
       intervalId = setInterval(() => {
         const differenceInTime = selectedDates[0] - new Date();
